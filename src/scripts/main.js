@@ -1,8 +1,4 @@
-import sayHello from "./hello"
-import sayGoodbye from "./goodbye"
-import SandwichMaker from "./sandwichMaker"
+import buildDOM from "./buildDOM";
 
-sayHello()
-sayGoodbye()
 
-SandwichMaker.placeOrder("rye", "capicola", "provolone")
+buildDOM
