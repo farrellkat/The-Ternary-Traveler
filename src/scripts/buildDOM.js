@@ -20,7 +20,7 @@ const buildDOM = {
                 const name = interest.name
                 const description = interest.description
                 const country = interest.place.name
-                postToDom("#cardContainer", HTMLFactory(id, name, description, country))
+                    postToDom("#cardContainer", HTMLFactory(id, name, description, country))
             })
         })
     }
