@@ -11,8 +11,8 @@ const apiModule = {
         return fetch(`http://localhost:8088/${id}`)
             .then(res => res.json())
     },
-    postInterest: (id, obj) => {
-        return fetch(`http://localhost:8088/${id}`, {
+    postInterest: (obj) => {
+        return fetch("http://localhost:8088/interests", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -30,7 +30,7 @@ const apiModule = {
         })
     },
     deleteInterest: (id) => {
-        return fetch(`http://localhost:8088/${id}`, {
+        return fetch(`http://localhost:8088/interests/${id}`, {
             method: "DELETE",
         })
     }
