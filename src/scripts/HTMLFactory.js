@@ -1,8 +1,3 @@
-//name
-//description
-//cost
-//review
-
 const HTMLFactory = (id, name, description, country) => {
   return  `
     <article id="placeCard--${id}" class="placeCard">
