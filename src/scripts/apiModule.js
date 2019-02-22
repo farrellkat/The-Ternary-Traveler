@@ -20,15 +20,6 @@ const apiModule = {
             body: JSON.stringify(obj)
         })
     },
-    editInterest: (id, obj) => {
-        return fetch(`http://localhost:8088/${id}`, {
-            method: "PUT",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(obj)
-        })
-    },
     deleteInterest: (id) => {
         return fetch(`http://localhost:8088/interests/${id}`, {
             method: "DELETE",
