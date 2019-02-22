@@ -6,9 +6,10 @@
 const HTMLFactory = (id, name, description, country) => {
   return  `
     <article id="placeCard--${id}">
-        <h1>${name}</h1>
+        <h4>${name}</h4>
         <div>${description}</div>
         <div>${country}</div>
+        <button id="deleteCardButton--${id}">Delete</button>
     </article>
     `
 }
