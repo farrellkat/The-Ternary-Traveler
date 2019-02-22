@@ -1,0 +1,123 @@
+:root {
+    --button-hover-color: #6fa5d0;
+    --button-bg: white;
+    --card-border-green: #3f483b;
+    --form-container-darkGreen: #0b1c03;
+}
+
+#mainContainer {
+    margin: 10px 50px 10px 50px;
+}
+
+html {
+    background: url(../img/landscape.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h1 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--form-container-darkGreen);
+    font-size: 50px;
+    box-shadow: 2px 2px black;
+    border-radius: 5px;
+    background-color: wheat;
+    width: 75%;
+}
+
+#formContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    background-color: var(--form-container-darkGreen);
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+}
+
+#placeName {
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#countrySelect {
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#placeDescription {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#submitButton {
+    min-width: 200px;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#cardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.placeCard {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    min-width: 200px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 5px solid var(--card-border-green);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.deleteButton {
+    width: 75px;
+    padding: 3px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+#submitButton:hover,
+.deleteButton:hover {
+    background-color: var(--button-hover-color);
+    color: white;
+    cursor: pointer;
+}
+
+.country {
+    margin-top: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+.name {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}

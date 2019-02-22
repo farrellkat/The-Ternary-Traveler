@@ -22,6 +22,18 @@
       "placeId": 1,
       "name": "Local Market",
       "description": "Local market where you can try purchase local products and try the local food"
+    },
+    {
+      "placeId": "2",
+      "name": "The Alps",
+      "description": "So many amazing places to ski!!!",
+      "id": 2
+    },
+    {
+      "placeId": "3",
+      "name": "The Moulin Rouge",
+      "description": "Ooh La La!!!",
+      "id": 3
     }
   ]
 }
